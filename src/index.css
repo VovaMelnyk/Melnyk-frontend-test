@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400&display=swap");
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #3c444c;
+}
+
+:root {
+    --columnsCount: 7;
+    --rowsCount: 7;
+}

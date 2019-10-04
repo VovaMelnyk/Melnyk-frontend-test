@@ -1,0 +1,38 @@
+.resend-form {
+  background-color: #ffffff;
+  padding: 40px 68px;
+  border-radius: 10px;
+}
+
+.resend-form__text {
+  margin-bottom: 12px;
+}
+
+.resend-form__field {
+  border: 1px solid #858585;
+  border-radius: 8px;
+  width: 340px;
+  display: block;
+  margin: auto;
+  margin-bottom: 24px;
+  font-size: 16px;
+  padding: 14px 16px;
+  outline: none;
+}
+
+.resend-form__field::placeholder {
+  font-size: 16px;
+  text-align: center;
+}
+
+.resend-form__btn {
+  margin: auto;
+}
+
+.invalid {
+  border: 1px solid #e91e63;
+}
+
+.valid {
+  border: 1px solid #00bfa5;
+}

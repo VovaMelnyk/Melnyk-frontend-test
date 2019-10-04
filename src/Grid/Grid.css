@@ -1,0 +1,39 @@
+.grid {
+    display: grid;
+    grid-template-columns: 68px repeat(var(--columnsCount), 128px);
+    grid-template-rows: 44px repeat(var(--rowsCount), 128px);
+    grid-auto-flow: dense;
+    grid-gap: 16px;
+}
+
+.column {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row {
+    grid-column: 1 / span 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cell {
+    background: #c4c4c4;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 16px;
+}
+
+.divider {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.grid-container {
+    display: flex;
+    justify-content: center;
+}
